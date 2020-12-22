@@ -9,7 +9,16 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <p>PyymentId: <%= pay[0].Attributes["id"] %>
+            </p>
+         <p>order_id: <%= pay[0].Attributes["order_id"] %></porder_id:>
+         <p>entity: <%= pay[0].Attributes["entity"] %></p>
+         <p>status: <%= pay[0].Attributes["status"] %></p>
+         <p>amount: <%= pay[0].Attributes["amount"] %></p>
+         <p>currency: <%= pay[0].Attributes["currency"] %></p>
+         <p>method: <%= pay[0].Attributes["method"] %></p>
+         <p>bank: <%= pay[0].Attributes["bank"] %></p>
+         <p>description: <%= pay[0].Attributes["description"] %></p>
     </div>
     </form>
 </body>
