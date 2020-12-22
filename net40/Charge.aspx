@@ -11,7 +11,7 @@
     <div>
     <p>PaymentId: <%= pay[0].Attributes["id"] %>
             </p>
-         <p>order_id: <%= pay[0].Attributes["order_id"] %></porder_id:>
+         <p>order_id: <%= pay[0].Attributes["order_id"] %></p>
          <p>entity: <%= pay[0].Attributes["entity"] %></p>
          <p>status: <%= pay[0].Attributes["status"] %></p>
          <p>amount: <%= pay[0].Attributes["amount"] %></p>
