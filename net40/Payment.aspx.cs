@@ -22,6 +22,9 @@ namespace RazorpaySampleApp
 
             Razorpay.Api.Order order = client.Order.Create(input);
             orderId = order["id"].ToString();
+            
+             //fetch order
+            Razorpay.Api.Order orderdata = client.Order.Fetch(orderId);
 
 
         }
