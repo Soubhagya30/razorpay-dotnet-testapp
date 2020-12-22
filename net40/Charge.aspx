@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <p>PyymentId: <%= pay[0].Attributes["id"] %>
+    <p>PaymentId: <%= pay[0].Attributes["id"] %>
             </p>
          <p>order_id: <%= pay[0].Attributes["order_id"] %></porder_id:>
          <p>entity: <%= pay[0].Attributes["entity"] %></p>
